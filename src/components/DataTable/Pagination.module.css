@@ -1,0 +1,17 @@
+.pagination {
+  margin-bottom: 2rem;
+}
+
+.pagination button {
+  background-color: #0db5df;
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-right: 0.4rem;
+}
+
+.pagination button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

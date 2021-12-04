@@ -1,0 +1,36 @@
+.search_bar {
+  background-color: #d5f1f5;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.form_field {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.form_field:first-child {
+  margin-right: 2rem;
+}
+
+.form_field input,
+.form_field select {
+  flex-grow: 1;
+  margin-left: 0.5rem;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 30em) {
+  .search_bar {
+    flex-direction: column;
+  }
+
+  .form_field:first-child {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
